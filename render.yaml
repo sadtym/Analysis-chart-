@@ -3,7 +3,7 @@ services:
     name: ai-chart-analyzer
     env: python
     plan: free
-    rootDir: ai-chart-analyzer-render/render_deployment
+    rootDir: ./ai-chart-analyzer-render/render_deployment
     buildCommand: pip install -r requirements.txt
     startCommand: python bot.py
     envVars:
